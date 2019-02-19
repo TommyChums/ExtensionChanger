@@ -80,6 +80,8 @@ namespace FIleEndings
 	        foreach (var f in Directory.GetFiles(@"C:\Users\" + Environment.UserName + @"\AppData\Roaming\discord\Cache")) {
 		        files.Add(f);
 	        }
+
+	        comboBox1.Text = ".png";
 	        ShowFiles();
         }
 
