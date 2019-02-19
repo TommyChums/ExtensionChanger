@@ -1,0 +1,10 @@
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\bin\Debug\FIleEndings.exe.config
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\bin\Debug\FIleEndings.exe
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\bin\Debug\FIleEndings.pdb
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.csprojAssemblyReference.cache
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.Form1.resources
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.Properties.Resources.resources
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.csproj.GenerateResource.cache
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.csproj.CoreCompileInputs.cache
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.exe
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.pdb
