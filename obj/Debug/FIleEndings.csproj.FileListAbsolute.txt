@@ -8,3 +8,7 @@ E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEnding
 E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.csproj.CoreCompileInputs.cache
 E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.exe
 E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.pdb
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\bin\Debug\FIleEndings.exe.manifest
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\bin\Debug\FIleEndings.application
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.exe.manifest
+E:\Users\Ricardo\Desktop\Programming\C# Projects\Personal\FIleEndings\FIleEndings\obj\Debug\FIleEndings.application

@@ -44,6 +44,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.downloadStatus = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -197,11 +199,36 @@
             this.label5.TabIndex = 15;
             this.label5.Text = "Press Change Extension to Begin";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Silver;
+            this.linkLabel1.Location = new System.Drawing.Point(635, 410);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(99, 13);
+            this.linkLabel1.TabIndex = 16;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Check For Updates";
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Silver;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // downloadStatus
+            // 
+            this.downloadStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.downloadStatus.Enabled = false;
+            this.downloadStatus.Location = new System.Drawing.Point(564, 387);
+            this.downloadStatus.Name = "downloadStatus";
+            this.downloadStatus.ReadOnly = true;
+            this.downloadStatus.Size = new System.Drawing.Size(234, 13);
+            this.downloadStatus.TabIndex = 17;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.downloadStatus);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -247,6 +274,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.TextBox downloadStatus;
     }
 }
 
