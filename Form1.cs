@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Deployment.Application;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -76,6 +77,7 @@ namespace FIleEndings
 	        files.Clear();
 	        if (!Directory.Exists(@"C:\Users\" + Environment.UserName + @"\AppData\Roaming\discord\Cache")) return;
 	        textBox1.Text = @"C:\Users\" + Environment.UserName + @"\AppData\Roaming\discord\Cache";
+	        path = textBox1.Text;
 
 	        foreach (var f in Directory.GetFiles(@"C:\Users\" + Environment.UserName + @"\AppData\Roaming\discord\Cache")) {
 		        files.Add(f);
@@ -105,6 +107,12 @@ namespace FIleEndings
 
 		        ShowFiles();
 	        }
+        }
+
+
+        private void button7_Click(object sender, EventArgs e) {
+	        if (path == null) return;
+	        Process.Start(path);
         }
 
         private void Begin(object sender, EventArgs e) {
@@ -265,5 +273,5 @@ namespace FIleEndings
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
 			UpdateApplication();
         }
-    }
+	}
 }
